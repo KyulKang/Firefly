@@ -76,7 +76,7 @@ export default class Sensor {
 
       context.beginPath();
       context.lineWidth = 1;
-      context.strokeStyle = 'rgba(255, 255, 255, 0.5)';
+      context.strokeStyle = 'rgba(255, 255, 255, 0.3)';
 
       context.moveTo(this.rays[i][0].x, this.rays[i][0].y);
       context.lineTo(end.x, end.y);

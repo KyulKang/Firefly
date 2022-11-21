@@ -2,17 +2,17 @@ export default class Pellet {
   constructor(x, y, type = 'SMALL') {
     this.x = x;
     this.y = y;
-    this.point = 2;
-    this.size = 5;
+    this.point = 3;
+    this.size = 4;
 
     switch (type) {
       case 'MEDIUM':
         this.point = 5;
-        this.size = 7;
+        this.size = 6;
         break;
       case 'LARGE':
         this.point = 10;
-        this.size = 10;
+        this.size = 9;
         break;
       default:
         break;
@@ -60,8 +60,8 @@ export default class Pellet {
     context.beginPath();
 
     context.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
-    context.fillStyle = 'rgba(0, 180, 200, 0.8)';
-    context.shadowBlur = 15;
+    context.fillStyle = 'rgba(0, 180, 200, 0.6)';
+    context.shadowBlur = 25;
     context.shadowColor = 'rgb(0, 200, 230)';
     context.fill();
   }

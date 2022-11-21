@@ -4,7 +4,10 @@ import Canvas from './components/Canvas';
 const App = () => {
   return (
     <div>
-      <h1>firefly</h1>
+      <a href="https://github.com/KyulKang/Firefly">
+        <h1>firefly</h1>
+      </a>
+
       <Canvas height="600" width="800" />
     </div>
   );

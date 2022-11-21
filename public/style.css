@@ -53,13 +53,14 @@ body {
 }
 
 h1 {
-  color: rgba(200, 200, 200, 0.3);
+  color: rgba(255, 255, 255, 0.6);
   font-variant-caps: petite-caps;
   -webkit-text-stroke: thin;
 }
 
 a {
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 label {
@@ -69,42 +70,4 @@ label {
 nav a {
   display: inline-block;
   margin: 1em;
-}
-
-form div {
-  margin: 1em;
-  display: inline-block;
-}
-
-.center-div {
-  width: 580px;
-  height: 374px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -290px;
-  margin-top: -187px;
-}
-
-#preloaderDiv {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -27px;
-  margin-top: -27px;
-}
-
-#logo {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-#date2014 {
-  position: absolute;
-  padding-left: 210px;
-  padding-top: 15px;
-  opacity: 0;
-  top: 303px;
-  left: 0;
-  filter: alpha(opacity=0);
 }
