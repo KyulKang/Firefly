@@ -1,15 +1,13 @@
-import React from 'react'
-
-import Navbar from './components/Navbar'
-import Routes from './Routes'
+import React from 'react';
+import Canvas from './components/Canvas';
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Routes />
+      <h1>firefly</h1>
+      <Canvas height="600" width="800" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

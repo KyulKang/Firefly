@@ -1,7 +1,7 @@
 {
-  "name": "fs-app-template",
+  "name": "firefly",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "a light shines brighter in the dark",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -22,8 +22,13 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
+    "canvas": "^2.10.2",
     "compression": "^1.7.3",
+    "createjs": "^1.0.1",
+    "createjs-module": "^0.8.3",
+    "easeljs": "^1.0.2",
     "express": "^4.16.4",
+    "gsap": "^3.11.3",
     "history": "^4.9.0",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.9.1",
